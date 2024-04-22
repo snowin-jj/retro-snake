@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Retro Snake</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script type="module" src="/main.js" defer></script>
+    </head>
+    <body class="pixel-sans">
+        <div class="primary-wrapper">
+            <h1 class="title">Retro Snake</h1>
+            <div class="score-board">
+                <div>
+                    <label for="currentScore">Current Score</label>
+                    <h2 class="current-score" id="currentScore">000</h2>
+                </div>
+                <div>
+                    <label for="highScore">High Score</label>
+                    <h2 class="high-score" id="highScore">000</h2>
+                </div>
+            </div>
+            <div class="game-board-wrapper">
+                <div class="game-board hidden"></div>
+                <div class="instruction-container">
+                    <img src="/assets/font-logo.png" alt="game logo" />
+                    <h2>Press <span>SPACEBAR</span> to start the game</h2>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
